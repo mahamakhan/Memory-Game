@@ -4,6 +4,7 @@
   font-family: 'Marvel', sans-serif;
   color: beige;
   text-align: center;
+  box-sizing: border-box;
 }
 h1, h4 {
   margin-right: 30px;
@@ -26,21 +27,21 @@ h1, h4 {
       margin: 50px 10px 20px 30px;
       font-family: Helvetica;
       grid-template-columns: 1fr 1fr;
-      grid-template-rows: 50px 1fr 30px;
+      
       
     }
  
 
-  #grid {
+  .grid {
     display: grid;
     background-color:beige;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat (4, 1fr);
     gap: 5px;
     margin-left:500px; 
     margin-right:500px;
-    height: 200px;
-    width: 200px;
+    border:rgb(234, 226, 226) solid 7px;
+    
     
   }
   
@@ -51,6 +52,9 @@ h1, h4 {
     color: beige;
     font-family:'Shadows Into Light', cursive; ;
     padding: 40px 40px;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
   }
   
 
@@ -60,4 +64,14 @@ h1, h4 {
     border: thick double rgb(230, 28, 6);
     margin-top: 50px;
     font-size: 50px;
+ }
+ img{
+  width: 200px;
+  height: 250px;
+  opacity:0;
+  transition: 0.3s all ease;
+ }
+
+ .choosen{
+  background-color: antiquewhite;
  }
