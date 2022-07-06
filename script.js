@@ -33,44 +33,50 @@ const characterList = [
   }
 ]
 
-let counter = 0
-let firstSelection = ''
-let secondSelection = ''
+let number = 0
+let firstOption = ''
+let secondOption = ''
 
-const cards = document.querySelectorAll('.grid .card')
-cards.forEach((card) => {
+const box = document.querySelectorAll('.grid .card')
+box.forEach((card) => {
   card.addEventListener('click', () => {
     card.classList.add('clicked')
 
     if (counter === 0) {
-      firstSelection = card.getAttribute('id')
-      counter++
+      firstOption = card.getAttribute('id')
+      number++
     } else {
-      secondSelection = card.getAttribute('id')
-      counter = 0
+      secondOption = card.getAttribute('id')
+      number = 0
 
-      if (firstSelection === secondSelection) {
-        const correctCards = document.querySelectorAll(
+      if (firstOption === secondOption) {
+        const correctBox = document.querySelectorAll(
           ".card[id='" + firstSelection + "']",
           (document.querySelector('#result').innerHTML =
             'You found both characters from different multiuniverse!')
         )
 
-        correctCards[0].classList.add('checked')
-        correctCards[0].classList.remove('clicked')
-        correctCards[1].classList.add('checked')
-        correctCards[1].classList.remove('clicked')
+        correctBox[0].classList.add('checked')
+        correctBox[0].classList.remove('clicked')
+        correctBox[1].classList.add('checked')
+        correctBox[1].classList.remove('clicked')
       } else {
-        const incorrectCards = document.querySelectorAll('.card.clicked')
+        const incorrectBox = document.querySelectorAll('.card.clicked')
         document.querySelector('#result').innerHTML =
           "Pick another box!That's not the right character from a different multiuniverse."
 
         setTimeout(() => {
-          incorrectCards[0].classList.remove('clicked')
+          incorrectBox[0].classList.remove('clicked')
 
-          incorrectCards[1].classList.remove('clicked')
-        }, 800)
+          incorrectBox[1].classList.remove('clicked')
+        }, 600)
       }
     }
   })
 })
+const choosen = document.querySelectorAll('.checked')
+if ((choosen = choosen)) {
+  console.log('all')
+} else {
+  console.log('no')
+}

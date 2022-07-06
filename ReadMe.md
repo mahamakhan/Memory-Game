@@ -32,7 +32,10 @@ Read the instruction on the homepage and select option to get started.
 
 ---
 
-### **_Credits_**
+### **_Post MVP_**
+
+1. Add timer
+2. make the images shuffle everytime
 
 ### **Screenshots**
 
@@ -42,10 +45,10 @@ Read the instruction on the homepage and select option to get started.
 
 - [Images](https://www.google.com/?&bih=839&biw=1500&hl=en)
 - [Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
-- [classList](https://www.google.com/?&bih=839&biw=1500&hl=en)
-- [background-image](https://www.google.com/?&bih=839&biw=1500&hl=en)
-- [background-repeat](https://www.google.com/?&bih=839&biw=1500&hl=en)
-- [time](https://www.google.com/?&bih=839&biw=1500&hl=en)
+- [classList](https://stackoverflow.com/questions/6787383/how-to-add-remove-a-class-in-javascript)
+- [background-image](https://www.w3schools.com/cssref/pr_background-position.asp)
+- [background-repeat](https://www.w3schools.com/cssref/pr_background-position.asp)
+- [time](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout)
 - [Images](https://www.google.com/?&bih=839&biw=1500&hl=en)
 - [Images](https://www.google.com/?&bih=839&biw=1500&hl=en)
 - [Images](https://www.google.com/?&bih=839&biw=1500&hl=en)

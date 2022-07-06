@@ -18,8 +18,8 @@ h1, h4 {
     margin-top: 420px;
   }
   h4{
-    font-size: 40px;
-    /* margin-top: 50px; */
+    font-size: 30px;
+    margin-top: 50px; 
     
   } 
   
@@ -50,7 +50,7 @@ h3{
     gap: 3px;
     /* margin-left:500px; 
     margin-right:500px; */
-    border:rgb(160, 12, 12) solid 7px;
+    
    
   
     
