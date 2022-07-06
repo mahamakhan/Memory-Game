@@ -79,21 +79,43 @@ const characterList = [
 // startgame()
 
 let counter = 0
-let firstOption = ''
-let secondOption = ''
+let firstSelection = ''
+let secondSelection = ''
+
 const cards = document.querySelectorAll('.grid .card')
 cards.forEach((card) => {
   card.addEventListener('click', () => {
-    card.classList.add('choosen')
+    card.classList.add('clicked')
 
     if (counter === 0) {
-      firstOption = card.getAttribute('id')
+      firstSelection = card.getAttribute('id')
       counter++
     } else {
-      secondOption = card.getAttribute('id')
+      secondSelection = card.getAttribute('id')
       counter = 0
+
+      if (firstSelection === secondSelection) {
+        const correctCards = document.querySelectorAll(
+          ".card[id='" + firstSelection + "']",
+          (document.querySelector('#result').innerHTML =
+            'You found both characters from different multiuniverse!')
+        )
+
+        correctCards[0].classList.add('checked')
+        correctCards[0].classList.remove('clicked')
+        correctCards[1].classList.add('checked')
+        correctCards[1].classList.remove('clicked')
+      } else {
+        const incorrectCards = document.querySelectorAll('.card.clicked')
+        document.querySelector('#result').innerHTML =
+          "Pick another box!That's not the right character from a different multiuniverse."
+
+        setTimeout(() => {
+          incorrectCards[0].classList.remove('clicked')
+
+          incorrectCards[1].classList.remove('clicked')
+        }, 800)
+      }
     }
-    console.log(firstOption)
-    console.log(secondOption)
   })
 })

@@ -1,6 +1,6 @@
 *{
   box-sizing: border-box;
-  background-color: rgb(213, 23, 23);
+  background-image: url('images/marvel.jpg');
   font-family: 'Marvel', sans-serif;
   color: beige;
   text-align: center;
@@ -34,28 +34,23 @@ h1, h4 {
 
   .grid {
     display: grid;
-    background-color:beige;
+    background-color:rgb(212, 49, 8);
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat (4, 1fr);
-    gap: 5px;
+    gap: 10px;
     margin-left:500px; 
     margin-right:500px;
-    border:rgb(234, 226, 226) solid 7px;
-    
+    border:rgb(160, 12, 12) solid 7px;
+    height: 200px;
+    width: 200px;
+  
     
   }
   
-  .square { 
-    border: 4px dotted rgb(240, 232, 232);
-    justify-content: center;
-    font-size: 40px;
-    color: beige;
-    font-family:'Shadows Into Light', cursive; ;
-    padding: 40px 40px;
-    height: 200px;
-    width: 200px;
-    border-radius: 10px;
+  .card {
+    background-image: linear-gradient(red,white);
   }
+
   
 
   button{
@@ -75,3 +70,22 @@ h1, h4 {
  .choosen{
   background-color: antiquewhite;
  }
+
+
+ .card.clicked {
+  background-color: orange;
+}
+
+.card.checked {
+  background-color: lightgreen;
+}
+
+.card.clicked img,
+.card.checked img {
+  opacity: 1;
+}
+
+.card.shake {
+  background-color: #f15f5f;
+  animation: shake 0.5s;
+}
