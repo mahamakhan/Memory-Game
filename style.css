@@ -1,6 +1,5 @@
-*{
+body{
   box-sizing: border-box;
-  background-image: url('images/marvel.jpg');
   background-repeat:repeat-x;
   background-color: rgb(234, 1, 1);
   font-family: 'Marvel', sans-serif;
@@ -61,15 +60,16 @@ h3{
     max-height: 195px;
     max-width: 175px;
   }
-.card.dark{
+ .card.dark{
   background-color: rgb(87, 86, 86);
+  background-image: none;
 }
   
 
   .play{
-    color: rgb(255, 255, 255);
-    background-color: rgb(251, 251, 251);
-    border: thick double rgb(247, 246, 246);
+    color: rgb(220, 9, 9);
+    background-color: rgb(255, 255, 255);
+    border: thick double rgb(169, 4, 4);
     margin-top: 50px;
     font-size: 50px;
     font-weight: bold;
@@ -100,6 +100,7 @@ h3{
   font-size: x-small;
   color: black;
   border-radius: 60%;
+  float: left;
 }
 
 button:hover {
@@ -111,6 +112,7 @@ button:hover {
 .dark{
   background-color: rgb(34, 3, 3);
   color: grey;
+  background-image: none;
 }
 
 /* .transition-fade{

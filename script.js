@@ -74,9 +74,10 @@ box.forEach((card) => {
     }
   })
 })
-
+function darkMode() {
+  let page = document.body
+  page.classList.toggle('dark')
+}
 const button = document.querySelector('.mode')
-const page = document.querySelectorAll('body')
-button.addEventListener('click', () => {
-  console.log('works')
-})
+
+button.addEventListener('click', darkMode)
