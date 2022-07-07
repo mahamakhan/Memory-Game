@@ -61,16 +61,19 @@ h3{
     max-height: 195px;
     max-width: 175px;
   }
-
+.card.dark{
+  background-color: rgb(87, 86, 86);
+}
   
 
-  button{
+  .play{
     color: rgb(255, 255, 255);
     background-color: rgb(251, 251, 251);
     border: thick double rgb(247, 246, 246);
     margin-top: 50px;
     font-size: 50px;
     font-weight: bold;
+
  }
  img{
   width: 175px;
@@ -90,3 +93,38 @@ h3{
 .card.checked img {
   opacity: 1;
 }
+
+
+
+.mode{
+  font-size: x-small;
+  color: black;
+  border-radius: 60%;
+}
+
+button:hover {
+  background-color: aliceblue;
+  color:rgb(79, 7, 7);
+  transform: scale(1.9)
+}
+
+.dark{
+  background-color: rgb(34, 3, 3);
+  color: grey;
+}
+
+/* .transition-fade{
+  opacity: 1;
+  transition: 600ms;
+  transform: translateX(0);
+  transform-origin: right;
+}
+
+html.is-animating .transition-fade{
+  opacity: 0;
+  transform: translateX(100%);
+}
+html.is-leaving .transition-fade{
+  opacity: 0;
+  transform: translateX(0);
+} */

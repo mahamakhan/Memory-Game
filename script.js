@@ -74,9 +74,9 @@ box.forEach((card) => {
     }
   })
 })
-const choosen = document.querySelectorAll('.checked')
-if ((choosen = choosen)) {
-  console.log('all')
-} else {
-  console.log('no')
-}
+
+const button = document.querySelector('.mode')
+const page = document.querySelectorAll('body')
+button.addEventListener('click', () => {
+  console.log('works')
+})

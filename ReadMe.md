@@ -49,7 +49,7 @@ Read the instruction on the homepage and select option to get started.
 - [background-image](https://www.w3schools.com/cssref/pr_background-position.asp)
 - [background-repeat](https://www.w3schools.com/cssref/pr_background-position.asp)
 - [time](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout)
-- [Images](https://www.google.com/?&bih=839&biw=1500&hl=en)
+- [CSS](https://generalassembly.zoom.us/rec/play/yTHGaK6y5b2NHIBIZo02YRHEBTVnNupsIKeJmVfAd1_STbFIksEDt_ciBxcxjK_5_eLdoexTp3PwpQJR.akJLLtiQm-glV2gZ?continueMode=true&_x_zm_rtaid=1Q3671oLS6OJoPJUzRFQ7A.1657198818145.ef9143e98539af09f156c4966852bfae&_x_zm_rhtaid=641)
 - [Images](https://www.google.com/?&bih=839&biw=1500&hl=en)
 - [Images](https://www.google.com/?&bih=839&biw=1500&hl=en)
 - [Images](https://www.google.com/?&bih=839&biw=1500&hl=en)
