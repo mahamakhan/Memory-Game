@@ -8,7 +8,7 @@ box.forEach((card) => {
   card.addEventListener('click', () => {
     card.classList.add('clicked')
 
-    if (counter === 0) {
+    if (number === 0) {
       firstOption = card.getAttribute('id')
       number++
     } else {
@@ -17,7 +17,7 @@ box.forEach((card) => {
       //results
       if (firstOption === secondOption) {
         const correctBox = document.querySelectorAll(
-          ".card[id='" + firstSelection + "']",
+          ".card[id='" + firstOption + "']",
           (document.querySelector('#result').innerHTML =
             'You found both characters from different multiuniverse!')
         )
