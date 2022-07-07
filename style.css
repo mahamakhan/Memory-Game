@@ -39,19 +39,13 @@ h3{
       
       
     }
- 
 
   .grid {
     display: grid;
     
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat (4, 1fr);
-    gap: 3px;
-    /* margin-left:500px; 
-    margin-right:500px; */
-    
-   
-  
+    gap: 3px; 
     
   }
   
@@ -60,7 +54,8 @@ h3{
     max-height: 195px;
     max-width: 175px;
   }
- .card.dark{
+
+.card.dark{
   background-color: rgb(87, 86, 86);
   background-image: none;
 }
@@ -115,18 +110,3 @@ button:hover {
   background-image: none;
 }
 
-/* .transition-fade{
-  opacity: 1;
-  transition: 600ms;
-  transform: translateX(0);
-  transform-origin: right;
-}
-
-html.is-animating .transition-fade{
-  opacity: 0;
-  transform: translateX(100%);
-}
-html.is-leaving .transition-fade{
-  opacity: 0;
-  transform: translateX(0);
-} */

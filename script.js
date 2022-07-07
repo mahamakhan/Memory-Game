@@ -29,7 +29,7 @@ box.forEach((card) => {
       } else {
         const incorrectBox = document.querySelectorAll('.card.clicked')
         document.querySelector('#result').innerHTML =
-          "Pick another box!That's not the right character from a different multiuniverse."
+          "Pick another box!That's not the right character."
 
         setTimeout(() => {
           incorrectBox[0].classList.remove('clicked')
