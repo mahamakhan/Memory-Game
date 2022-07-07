@@ -1,42 +1,8 @@
-const characterList = [
-  {
-    name: 'bpanther',
-    image: 'images/blackpanther.jpg'
-  },
-  {
-    name: 'bwidow',
-    image: 'images/bwidow.jpg'
-  },
-  {
-    name: 'captain',
-    image: 'images/captain.jpg'
-  },
-  {
-    name: 'drstrange',
-    image: 'images/drstrange.jpg'
-  },
-  {
-    name: 'hulk',
-    image: 'images/hulk.jpg'
-  },
-  {
-    name: 'ironman',
-    image: 'images/ironman.jpg'
-  },
-  {
-    name: 'spiderman',
-    image: 'images/spiderman.jpg'
-  },
-  {
-    name: 'thor',
-    image: 'images/thorrr.jpg'
-  }
-]
-
 let number = 0
 let firstOption = ''
 let secondOption = ''
 
+// add class to check if options match
 const box = document.querySelectorAll('.grid .card')
 box.forEach((card) => {
   card.addEventListener('click', () => {
@@ -48,7 +14,7 @@ box.forEach((card) => {
     } else {
       secondOption = card.getAttribute('id')
       number = 0
-
+      //results
       if (firstOption === secondOption) {
         const correctBox = document.querySelectorAll(
           ".card[id='" + firstSelection + "']",
@@ -74,6 +40,7 @@ box.forEach((card) => {
     }
   })
 })
+//dark mode
 function darkMode() {
   let page = document.body
   page.classList.toggle('dark')
