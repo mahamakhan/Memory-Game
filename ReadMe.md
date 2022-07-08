@@ -6,15 +6,13 @@
 
 ### Links to accounts
 
-[Facebook](https://www.facebook.com/) | [Trello](https://trello.com/b/1TZAQYYq/unit-1-project-memory-game) |[Linkdin](https://www.linkedin.com/feed/)
+[Facebook](https://www.facebook.com/) | [Trello](https://trello.com/b/1TZAQYYq/unit-1-project-memory-game) |[Linkdin](https://www.linkedin.com/)
 
 ---
 
 ### **_Description_**
 
 #### Test your memory with boxes in a time limit.
-
-![Image](https://api.time.com/wp-content/uploads/2015/03/memory.jpg)
 
 ---
 
@@ -39,6 +37,9 @@ Read the instruction on the homepage and select option to get started.
 
 ### **Screenshots**
 
+![Image](images/ss1.png)
+![Image](images/ss2.png)
+
 ---
 
 ### Sources
@@ -51,7 +52,7 @@ Read the instruction on the homepage and select option to get started.
 - [time](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout)
 - [CSS](https://generalassembly.zoom.us/rec/play/yTHGaK6y5b2NHIBIZo02YRHEBTVnNupsIKeJmVfAd1_STbFIksEDt_ciBxcxjK_5_eLdoexTp3PwpQJR.akJLLtiQm-glV2gZ?continueMode=true&_x_zm_rtaid=1Q3671oLS6OJoPJUzRFQ7A.1657198818145.ef9143e98539af09f156c4966852bfae&_x_zm_rhtaid=641)
 - [dark-mode](https://www.geeksforgeeks.org/how-to-make-dark-mode-for-websites-using-html-css-javascript/)
-- [Images](https://www.google.com/?&bih=839&biw=1500&hl=en)
+- [timer](https://www.w3schools.com/howto/howto_js_countdown.asp)
 - [Images](https://www.google.com/?&bih=839&biw=1500&hl=en)
 - [Images](https://www.google.com/?&bih=839&biw=1500&hl=en)
 - [Images](https://www.google.com/?&bih=839&biw=1500&hl=en)
