@@ -53,9 +53,10 @@ h3{
   }
   
   .card {
-    background-image: linear-gradient(red,white);
+    background-image: linear-gradient(rgb(193, 4, 4),rgb(245, 222, 222));
     max-height: 195px;
     max-width: 175px;
+    border-radius: 30%;
   }
 
 .card .dark{
@@ -71,6 +72,7 @@ h3{
     margin-top: 50px;
     font-size: 50px;
     font-weight: bold;
+    border-radius: 20%;
 
  }
  img{
@@ -78,20 +80,14 @@ h3{
   height: 195px;
   opacity:0;
   transition: 0.3s all ease;
+  border-radius: 30%;
  }
 
-
-
-
-.card.checked {
-  background-color: lightgreen;
-}
 
 .card.clicked img,
 .card.checked img {
   opacity: 1;
 }
-
 
 
 .mode{
